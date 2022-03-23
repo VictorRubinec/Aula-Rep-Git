@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+.header{
+    border-bottom: 3px solid aqua;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+}
+
+.titulo{
+    color: aqua;;
+    width: fit-content;
+}
+
+.navBar{
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    width: 320px;
+    align-items: center;
+}
